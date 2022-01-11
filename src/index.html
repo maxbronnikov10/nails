@@ -19,13 +19,13 @@
                 <div class="promo__subtitle">
                     Мы предлагаем самые современные техники и индивидуальный подход к каждому клиенту
                 </div>
-                <div class="promo__buttons">
-                    <button class="button__signup">
+                <div class="promo__links">
+                    <a href="#book" class="button__signup">
                         Записаться
-                    </button>
-                    <button class="button__present">
+                    </a>
+                    <a href="#book" class="button__present">
                         Подарить
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -74,9 +74,9 @@
                                 аппаратный, сложный с удалением натоптышей
                                 и сухих мозолей
                             </div>
-                            <button class="service__offers-item-button button__signup">
+                            <a class="service__offers-item-button button__signup" href="#book">
                                 Записаться
-                            </button>
+                            </a>
                         </div>
                         <div class="service__offers-item">
                             <div class="service__offers-item-title">
@@ -86,9 +86,9 @@
                                 Все виды маникюра, наращивание, SPA-маникюр, лечебные покрытия, мужской маникюр, детский
                                 маникюр.
                             </div>
-                            <button class="service__offers-item-button button__signup">
+                            <a class="service__offers-item-button button__signup" href="#book">
                                 Записаться
-                            </button>
+                            </a>
                         </div>
                         <div class="service__offers-item">
                             <div class="service__offers-item-title">
@@ -98,9 +98,9 @@
                                 Форма бровей,
                                 коррекция бровей, окрашивание бровей, окрашивание ресниц
                             </div>
-                            <button class="service__offers-item-button button__signup">
+                            <a class="service__offers-item-button button__signup" href="#book">
                                 Записаться
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -109,9 +109,9 @@
     </section>
     <section class="portfolio">
         <div class="container">
-            <div class="title">
+            <h2 class="title">
                 Примеры работ <span>наших мастеров</span>
-            </div>
+            </h2>
             <div class="portfolio__wrapper">
                 <div class="portfolio__wrapper-item">
                     <img src="../img/sample1.png" alt="sample1">
@@ -134,7 +134,19 @@
             </div>
         </div>
     </section>
-
+    <section class="book" id="book">
+        <div class="container">
+            <h2 class="title">
+                Записаться в салон<br> <span>онлайн</span>
+            </h2>
+            <form class="book__form">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваш телефон">
+                <input type="time" placeholder="Удобная дата">
+                <input type="submit" class="button__signup" value="Записаться">
+            </form>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
