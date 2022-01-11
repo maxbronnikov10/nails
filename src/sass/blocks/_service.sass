@@ -1,8 +1,8 @@
 .service
-    height: 100vh
+    padding: 175px 0 250px 0
     background: url('../img/services-bg.jpg') center center/cover no-repeat
     &__wrapper
-        height: 100vh
+        height: 100%
         display: flex
         align-items: center
     &__content
@@ -12,7 +12,8 @@
     &__offers
         margin-top: 100px
         display: grid
-        grid-template: auto/repeat(3,30%)
+        grid-template: auto/repeat(3, minmax(280px, 430px))
+        gap: 20px
         justify-content: space-between
         &-item
             padding: 55px 30px
@@ -36,3 +37,4 @@
             &-button
                 position: absolute
                 bottom: 50px
+                max-width: 370px
